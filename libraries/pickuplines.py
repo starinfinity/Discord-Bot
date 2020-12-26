@@ -20,4 +20,4 @@ pickline = ["You’re so hot, my zipper is falling for you.",
 
 
 def pickup():
-    return pickline[random.randint(0,len(pickline))]
+    return pickline[random.randint(0,len(pickline)-1)]
