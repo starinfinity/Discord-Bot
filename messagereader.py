@@ -8,7 +8,7 @@ import json
 
 
 def empty_response(author):
-    empty_choices = [' what\'s up.', ' what can i help you with.', ' what can i do for you.']
+    empty_choices = [' what\'s up.', ' how can i help you?', ' what can i do for you?']
     return 'Hey ' + author + empty_choices[random.randint(0, len(empty_choices)-1)]
 
 
