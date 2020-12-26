@@ -35,6 +35,6 @@ choices = ['Yo momma so fat when she walked past the TV I missed three episodes'
 
 
 def yomomma():
-    return choices[random.randint(0, len(choices))]
+    return choices[random.randint(0, len(choices)-1)]
 
 
