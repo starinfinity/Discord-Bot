@@ -21,4 +21,4 @@ roasts = ["You’re the reason God created the middle finger.",
 
 
 def roaster():
-    return roasts[random.randint(0, len(roasts))]
+    return roasts[random.randint(0, len(roasts)-1)]
