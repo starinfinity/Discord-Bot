@@ -6,4 +6,4 @@ namecalling = ["Bitch", "Dumbass", "KnuckleHead", "ShitHead", "NumSkull", "Hamme
 
 
 def namecaller():
-    return namecalling[random.randint(0,len(namecalling))]
+    return namecalling[random.randint(0,len(namecalling)-1)]
